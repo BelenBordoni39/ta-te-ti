@@ -74,7 +74,7 @@ function MejorLugar(){
 
 function Empate() {
     if (cuadroVacio().length == 0) {
-        for (var i = 0; i < cells.length; i++){
+        for (var i = 0; i < cells.length; i++) {
             cells[i].style.backgroundColor = "green";
             cells[i].removeEventListener('click', turnoMover, false);
         }
